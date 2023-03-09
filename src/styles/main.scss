@@ -22,13 +22,13 @@ body {
     font-size: 1.4rem;
     color: $dirty-white;
     line-height: 1.5;
+    overflow-x: hidden;
 }
 
 .container {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 1.5rem;
-    overflow-x: hidden;
 }
 
 .verticalLine {
