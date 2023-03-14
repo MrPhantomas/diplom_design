@@ -42,7 +42,7 @@
             <h1 class="main__title title title_h1 title_spacing">web-разработчик</h1>
             <div class="main__contacts">
                 <a class="discussLink" href="#">Обсудить проект</a>
-                <ul class="main__social">
+                <ul class="social">
                     <li>
                         <a href="#" class="main__link">Vk</a>
                     </li>
@@ -447,14 +447,134 @@
     <section class="rates">
         <div class="container">
             <div class="rates__info">
-                <h2 class="rates__title">
+                <h2 class="rates__title title title_h2">
                     Тарифы
                 </h2>
                 <p class="rates__text">
-                    Представленные ниже цены зависят не только от того какой сайт вы хотите. Конечная цена будет озвучена после прочтения Вашего ТЗ
+                    Представленные ниже цены зависят не&nbsp;только от того какой сайт вы хотите. Конечная цена будет озвучена после прочтения Вашего ТЗ
                 </p>
             </div>
-
+            <ul class="rates__list">
+                <li class="rates__item">
+                    <div class="rates__item__info">
+                        <h2 class="rates__item__info__title title title_h2 title_thin">
+                            <span class="rates__block">Разработка</span> лэндинга или сайт визитки
+                        </h2>
+                        <p class="rates__item__description">
+                            Небольшой сайт состоящий из одной страницы
+                        </p>
+                        <a class="discussLink" href="#">Обсудить проект</a>
+                    </div>
+                    <div class="rates__item__content">
+                        <h3 class="rates__item__content__title title title_h3">
+                            Что входит
+                        </h2>
+                        <ul class="rates__item__list">
+                            <li class="rates__item__list__item">Сайт на CMS WordPress</li>
+                            <li class="rates__item__list__item">Одна посадочная страница</li>
+                            <li class="rates__item__list__item">От 7 дней</li>
+                        </ul>
+                        <p class="rates__item__price" href="#">От 7 000 Р</p>
+                    </div>
+                </li>
+                <li class="rates__item">
+                    <div class="rates__item__info">
+                        <h2 class="rates__item__info__title title title_h2 title_thin">
+                            <span class="rates__block">Разработка</span> корпоративного сайта
+                        </h2>
+                        <p class="rates__item__description">
+                            Небольшой сайт с n-количеством страниц
+                        </p>
+                        <a class="discussLink" href="#">Обсудить проект</a>
+                    </div>
+                    <div class="rates__item__content">
+                        <h3 class="rates__item__content__title title title_h3">
+                            Что входит
+                        </h2>
+                        <ul class="rates__item__list">
+                            <li class="rates__item__list__item">Сайт на CMS WordPress</li>
+                            <li class="rates__item__list__item">От 2-10 страниц </li>
+                            <li class="rates__item__list__item">От 15 дней</li>
+                        </ul>
+                        <p class="rates__item__price" href="#">От 10 000 Р</p>
+                    </div>
+                </li>
+                <li class="rates__item">
+                    <div class="rates__item__info">
+                        <h2 class="rates__item__info__title title title_h2 title_thin">
+                            <span class="rates__block">Разработка</span> интернет - магазина
+                        </h2>
+                        <p class="rates__item__description">
+                            Полноценный каталог вашей продукции
+                        </p>
+                        <a class="discussLink" href="#">Обсудить проект</a>
+                    </div>
+                    <div class="rates__item__content">
+                        <h3 class="rates__item__content__title title title_h3">
+                            Что входит
+                        </h2>
+                        <ul class="rates__item__list">
+                            <li class="rates__item__list__item">Сайт на CMS WordPress</li>
+                            <li class="rates__item__list__item">От 2-10 страниц, корзина, карточка товара</li>
+                            <li class="rates__item__list__item">От 20 дней</li>
+                        </ul>
+                        <p class="rates__item__price" href="#">От 15 000 Р</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <div class="feedback__info">
+                <h2 class="feedback__title title title_h2">
+                    <span class="feedback__block">Расскажите</span> о своем проекте
+                </h2>
+                <p class="feedback__text">
+                    Воспользуйтесь формой обратной связи, чтобы обсудить ваш проект, заполните все поля, и я свяжусь с&nbsp;вами&nbsp;в ближайшее время
+                </p>
+            </div>
+            <div class="feedback__main">
+                <form class="card">
+                    <label class="card__label">Телефон или почта</label>
+                    <input class="card__input" type="text" placeholder="Введите телефон">
+                    <label class="card__label">Выберите удобный способ связи</label>
+                    <label class="dropdown">
+                        <input type="checkbox" class="dropdown__checkbox">
+                        <span class="dropdown__control">Telegram</span>
+                        <ul class="dropdown__list">
+                            <li class="dropdown__item">WhatsApp</li>
+                            <li class="dropdown__item">Viber</li>
+                            <li class="dropdown__item">Звонок на телефон</li>
+                            <li class="dropdown__item">SMS сообщение</li>
+                        </ul>
+                        <label for="target-drop-example" class="dropdown__close"></label>
+                    </label>
+                    <button type="submit" class="card__button">Отправить</button>
+                </form>
+                <div class="feedback__social">
+                    <ul class="social">
+                        <li>
+                            <a href="#" class="main__link">Vk</a>
+                        </li>
+                        <li>
+                            <div class="verticalLine"></div>
+                        </li>
+                        <li>
+                            <a href="#" class="main__link">Instagram</a>
+                        </li>
+                        <li>
+                            <div class="verticalLine"></div>
+                        </li>
+                        <li>
+                            <a href="#" class="main__link">Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="circle feedback__circle">
+                <div class="triangle feedback__triangle"></div>
+            </div>
         </div>
     </section>
 </body>
